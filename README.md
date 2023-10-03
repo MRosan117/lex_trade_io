@@ -8,10 +8,10 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="https://github.com/MRosan117/lex_trade_io/blob/ryan_branch/Images/ml3.png" alt="Logo" width="200" height="200"> 
+    <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/ml3.png" alt="Logo" width="400" height="400"> 
   </a>
 
-<h3 align="center">LexTrader.io</h3>
+<h1 align="center">LexTrader.io</h3>
 
   <p align="center">
     This project analyzes the SP500 dataset to build custom indicators and machine learning models for predictive trading. Our robo advisor, powered by Amazon Lex, combines these models with interactive conversation to provide users with a personalized trading experience.
@@ -19,39 +19,12 @@
   </p>
 </div>
 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/giphy.gif" alt="Logo" width="1000" height="400">
+<img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/giphy1.gif" alt="Logo" width="1000" height="400">
   <p align="center">
-    Several US senators who traded stocks during their terms saw significant gains in their portfolios. The concern is that, despite publicly implying otherwise, these senators traded in anticipation of news that would have a significant impact on financial markets. 
+    We start by analyzing the SP500 dataset to identify relevant trends and patterns. From there, we build custom indicators that capture these insights and use them to inform our trading strategies.
   </p>
 
   <p align="center" style="display: flex;" >
@@ -66,18 +39,41 @@
 `pip3 install numpy` <br>
 `pip3 install matplotlib` <br>
 `pip3 install plotly` <br>
+`pip3 install alpaca-py` <br>
+`pip3 install alpaca-py` <br>
+`pip3 install python-dotenv` <br>
+`pip3 install yfinance` <br>
+
+
 ### APIs
 * **[yfinance](https://pypi.org/project/yfinance/ "pypi yfinance Project Page")** | *Market data*
+* **[Alpaca](https://alpaca.markets/")** | *Trading Platform*
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-<img src="https://github.com/Nievz/Project_One_Draft/blob/main/Images/about.jpg">
+<br />
+<div align="center">
+    <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/ml1.png" alt="Logo" width="400" height="400"> 
+  </a>
+  <p align="center">
+  </p>
+</div>
 
+  
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+# Custom Indicator
+
+
+# Machine Learning Models
+
+
+# Robo Advisor with Amazon Lex
+
+
+# Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
 * npm
@@ -101,8 +97,7 @@ This is an example of how to list things you need to use the software and how to
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
+<p align="right">(<a href="#readme-top">back to top</a></p>
 
 
 <!-- USAGE EXAMPLES -->
@@ -112,7 +107,8 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>
+</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -128,8 +124,6 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- LICENSE -->
@@ -137,18 +131,6 @@ Don't forget to give the project a star! Thanks again!
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -159,7 +141,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 * []()
 * []()
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
