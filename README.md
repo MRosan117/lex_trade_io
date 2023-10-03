@@ -49,7 +49,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="https://github.com/Nievz/Project_One_Draft/blob/main/Images/ezgif.com-gif-maker.gif" alt="Logo" width="1000" height="250">
+<img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/giphy.gif" alt="Logo" width="1000" height="400">
   <p align="center">
     Several US senators who traded stocks during their terms saw significant gains in their portfolios. The concern is that, despite publicly implying otherwise, these senators traded in anticipation of news that would have a significant impact on financial markets. 
   </p>
