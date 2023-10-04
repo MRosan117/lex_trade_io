@@ -77,6 +77,17 @@ We start by analyzing the SP500 dataset to identify relevant trends and patterns
 
 # Monte Carlo simulation
 
+We built 5 portfolios, corresponding to different benchmark risk/reward levels, and ran them through a Monte Carlo simulation.  
+
+Below are the five portfolios (bonds/stocks ratio):
+
+Conservative 100/0%  
+Moderately Conservative* 60/40% 
+Moderate 40/60% 
+Moderately Aggressive 20/80% 
+Aggressive 0/100%
+
+Note: (Bonds/Stocks ratio - "AGG" Bond ETF/"SPY"SP500 Index)
 
 # Prerequisites
 
