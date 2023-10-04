@@ -14,7 +14,6 @@
 <h1 align="center">LexTrader.io</h3>
 
   <p align="center">
-    This project analyzes the SP500 dataset to build custom indicators and machine learning models for predictive trading. Our robo advisor, powered by Amazon Lex, combines these models with interactive conversation to provide users with a personalized trading experience.
     
   </p>
 </div>
@@ -24,7 +23,6 @@
 
 <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/giphy1.gif" alt="Logo" width="1000" height="400">
   <p align="center">
-    We start by analyzing the SP500 dataset to identify relevant trends and patterns. From there, we build custom indicators that capture these insights and use them to inform our trading strategies.
   </p>
 
   <p align="center" style="display: flex;" >
@@ -64,11 +62,16 @@
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
-# Custom Indicator
+# Custom Indicator & Machine Learning Models
+We start by analyzing the SP500 dataset to identify relevant trends and patterns. From there, we build custom indicators that capture these insights and use them to inform our trading strategies.
 
-
-# Machine Learning Models
-
+<br />
+<div align="center">
+    <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/LexTradePulse.png" alt="Logo" width="1000" height="600"> 
+  </a>
+  <p align="center">
+  </p>
+</div>
 
 # Robo Advisor with Amazon Lex
 
@@ -99,8 +102,6 @@ This is an example of how to list things you need to use the software and how to
    const API_KEY = 'ENTER YOUR API';
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a></p>
-
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -108,8 +109,6 @@ This is an example of how to list things you need to use the software and how to
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>
 </p>
 
 <!-- CONTRIBUTING -->
