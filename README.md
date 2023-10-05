@@ -76,6 +76,7 @@ We have incorporated Monte Carlo simulations into our algorithmic trading system
 Our Monte Carlo simulations generate thousands of potential future scenarios based on historical market data. This process allows us to give users a better idea of how their chosen portfolio will perform over time, taking into account market fluctuations and historical trends.This approach empowers us to make informed investment decisions that align with the users unique risk tolerance and financial objectives.
 
 <div align="center">
+    <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/MC flow.png" alt="Logo" width="1000" height="600"> 
     <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/MC.png" alt="Logo" width="1000" height="500"> 
   </a>
   <p align="center">
