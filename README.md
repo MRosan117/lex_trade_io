@@ -64,7 +64,7 @@ We used Amazon Lex to power an intuitive and user-friendly interface in our algo
 This dynamic interaction ensures that each user has a personalized approach to investing that takes individual goals and comfort levels into account, allowing us to provide tailored solutions and improve the overall user experience.
 
 <div align="center">
-    <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/lex.png" alt="Logo" width="400" height="600"> 
+    <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/lex.png" alt="Logo" width="300" height="600"> 
   </a>
   <p align="center">
   </p>
