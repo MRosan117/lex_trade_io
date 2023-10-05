@@ -50,8 +50,10 @@ These models are trained on historical and live data and use the super indicator
 <div align="center">
     <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/LexTradePulse.png" alt="Logo" width="1000" height="600"> 
   
-  # Alpaca
+
+  <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/strategy.png" alt="Logo" width="1000" height="600">
   
+  # Alpaca
   <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/alpaca.png" alt="Logo" width="1000" height="600"> 
   </a>
   <p align="center">
