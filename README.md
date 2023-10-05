@@ -35,7 +35,7 @@
 
 <br />
 <div align="center">
-    <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/ml1.png" alt="Logo" width="400" height="400"> 
+    <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/ml1.png" alt="Logo" width="100" height="100"> 
   </a>
   <p align="center">
   </p>
@@ -43,22 +43,32 @@
 
 # Custom Indicator & Machine Learning Models
 
-Our algorithmic trading uses machine learning to make, predict, and improve the performance of trading strategies. We use five different technical indicators, and each one is calculated on its own from real-time stock market data. After being carefully designed to pick up on different aspects of market behavior, these indicators are then put together to make a single, all-encompassing super indicator. 
+Our algorithmic trading uses machine learning to make predict and improve the performance of trading strategies. We use five different technical indicators, and each one is calculated on its own from real-time stock market data. After being carefully designed to pick up on different aspects of market behavior, these indicators are then put together to make a single, all-encompassing super indicator. 
 
-These models are trained on historical and live data and use the super indicator as a key feature to predict how well our trading strategy will work overall with each indicator. This process of prediction lets us change and improve our trading strategy in real-time, which increases the chances of better trading results. Overall, making the algorithmic trading more reliable and data-driven by combining traditional indicators with cutting-edge machine-learning techniques.
+These models are trained on historical and live data and use the super indicator as a key feature to predict how well our trading strategy will work overall with each indicator. This process of prediction lets us change and improve our trading strategy in real time, which increases the chances of better trading results. Overall, making the algorithmic trading more reliable and data-driven by combining traditional indicators with cutting-edge machine learning techniques.
 <br />
 <div align="center">
     <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/LexTradePulse.png" alt="Logo" width="1000" height="600"> 
+  
+  # Alpaca
+  
+  <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/alpaca.png" alt="Logo" width="1000" height="600"> 
   </a>
   <p align="center">
   </p>
 </div>
 
 # Robo Advisor with Amazon Lex
-We used Amazon Lex to power an intuitive and user-friendly interface in our algorithmic trading. This interface enables users to interact with our service, collect critical data, and tailor our trading strategy to their specific financial profile. When a user interacts with our system, they are asked for information such as their name, last name, date of birth, net worth, details about their investment goals, and the amount they want to invest. From there, we determine which portfolio category best suits the user based on their inputs, taking into account their unique preferences and risk tolerance.
+We used Amazon Lex to power an intuitive and user-friendly interface in our algorithmic trading. This interface enables us to interact with users, collect critical data, and tailor our trading strategy to their specific financial profile. When a user interacts with our system, they are asked for information such as their name, last name, date of birth, net worth, liquidity risk, level of investment experience, importance of returns, overall risk tolerance, fear index, and the amount they want to invest. We determine which portfolio category best suits the user based on their inputs, taking into account their unique preferences and risk tolerance.
 
 This dynamic interaction ensures that each user has a personalized approach to investing that takes individual goals and comfort levels into account, allowing us to provide tailored solutions and improve the overall user experience.
 
+<div align="center">
+    <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/lex.png" alt="Logo" width="400" height="600"> 
+  </a>
+  <p align="center">
+  </p>
+</div>
 
 # Monte Carlo simulation
 
@@ -73,6 +83,13 @@ Moderately Aggressive 20/80%
 Aggressive 0/100%
 
 Note: (Bonds/Stocks ratio - "AGG" Bond ETF/"SPY"SP500 Index)
+
+<div align="center">
+    <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/MC.png" alt="Logo" width="1000" height="500"> 
+  </a>
+  <p align="center">
+  </p>
+</div>
 
 ## Required Python Libaraies
 
@@ -176,7 +193,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Acknowledgments
 
 * [https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md]()
-* []()
+* [https://alpaca.markets/docs/python-sdk/trading.html]()
 * []()
 
 
