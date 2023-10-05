@@ -79,7 +79,7 @@ Our Monte Carlo simulations generate thousands of potential future scenarios bas
 
 <div align="center">
     <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/MC flow.png" alt="Logo" width="1000" height="600"> 
-    <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/MC.png" alt="Logo" width="1000" height="500"> 
+    <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/MC 5.png" alt="Logo" width="1000" height="600"> 
   </a>
   <p align="center">
   </p>
