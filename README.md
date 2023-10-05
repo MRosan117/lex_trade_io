@@ -99,62 +99,6 @@ Our Monte Carlo simulations generate thousands of potential future scenarios bas
 * **[yfinance](https://pypi.org/project/yfinance/ "pypi yfinance Project Page")** | *Market data*
 * **[Alpaca](https://alpaca.markets/")** | *Trading Platform*
 
-# Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* pandas
-  ```sh
-  pip install alpaca-py
-  ```
-### Installation
-1. Import dependencies from Finta, Pandas, and Yfinance, libraries
-   ```
-   import pandas as pd
-   import yifinance as yf
-   import finta with TA
-   ```
-2. Import live SPY data from the last 60 days at 15-minute intervals
-   ```
-   spy_data=yf.download(tickers="SPY", period='60d', interval='15m')
-   ```
-3. Create "RSI" Indicator
-   
-   ```
-   clean_spy_data["RSI"] = clean_spy_data.tar.rsi(length=14)
-   ```
-
-# Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-</p>
 
 <!-- CONTRIBUTING -->
 ## Contributing
