@@ -115,13 +115,10 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 
-
 <!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-
 
 
 <!-- ACKNOWLEDGMENTS -->
@@ -129,8 +126,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 * [https://github.com/othneildrew/Best-README-Template/blob/master/BLANK_README.md]()
 * [https://alpaca.markets/docs/python-sdk/trading.html]()
-* []()
-
+* [https://docs.python.org/3/tutorial/controlflow.html#if-statements]()
+* [https://www.simplilearn.com/tutorials/python-tutorial/python-if-else-statement#ifelse_statement]()
 
 
 
