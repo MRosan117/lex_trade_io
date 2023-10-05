@@ -72,17 +72,8 @@ This dynamic interaction ensures that each user has a personalized approach to i
 
 # Monte Carlo simulation
 
-We built 5 portfolios, corresponding to different benchmark risk/reward levels, and ran them through a Monte Carlo simulation.  
-
-Below are the five portfolios (bonds/stocks ratio):
-
-Conservative 100/0%  
-Moderately Conservative* 60/40% 
-Moderate 40/60% 
-Moderately Aggressive 20/80% 
-Aggressive 0/100%
-
-Note: (Bonds/Stocks ratio - "AGG" Bond ETF/"SPY"SP500 Index)
+We have incorporated Monte Carlo simulations into our algorithmic trading system to predict the performance of five different portfolios in the future. These portfolios represent a range of risk appetites, from aggressive to conservative, as indicated by different bond-to-stock ratios. We have bond-to-stock ratios of 100/0% (Conservative), 60/40% (Moderately Conservative), 40/60% (Moderate), 20/80% (Moderately Aggressive), and 0/100% (Aggressive).
+Our Monte Carlo simulations generate thousands of potential future scenarios based on historical market data. This process allows us to give users a better idea of how their chosen portfolio will perform over time, taking into account market fluctuations and historical trends.This approach empowers us to make informed investment decisions that align with the users unique risk tolerance and financial objectives.
 
 <div align="center">
     <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/MC.png" alt="Logo" width="1000" height="500"> 
