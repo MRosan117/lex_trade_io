@@ -75,6 +75,32 @@ We start by analyzing the SP500 dataset to identify relevant trends and patterns
 
 # Robo Advisor with Amazon Lex
 
+# Prerequisites
+
+This is an example of how to list things you need to use the software and how to install them.
+* pandas
+  ```sh
+  pip install alpaca-py
+  ```
+
+### Installation
+1. Import dependencies from Finta, Pandas, and Yfinance, libraries
+   ```
+   import pandas as pd
+   import yifinance as yf
+   import finta with TA
+   ```
+2. Import live SPY data from the last 60 days at 15-minute intervals
+   ```
+   spy_data=yf.download(tickers="SPY", period='60d', interval='15m')
+   ```
+3. Create "RSI" Indicator
+   
+   ```
+   clean_spy_data["RSI"] = clean_spy_data.tar.rsi(length=14)
+   ```
+   
+
 # Monte Carlo simulation
 
 We built 5 portfolios, corresponding to different benchmark risk/reward levels, and ran them through a Monte Carlo simulation.  
