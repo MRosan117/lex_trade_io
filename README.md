@@ -58,10 +58,6 @@
   </p>
 </div>
 
-  
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 # Custom Indicator & Machine Learning Models
 
 Our algorithmic trading uses machine learning to make predict and improve the performance of trading strategies. We use five different technical indicators, and each one is calculated on its own from real-time stock market data. After being carefully designed to pick up on different aspects of market behavior, these indicators are then put together to make a single, all-encompassing super indicator. 
@@ -76,7 +72,9 @@ These models are trained on historical and live data and use the super indicator
 </div>
 
 # Robo Advisor with Amazon Lex
+We used Amazon Lex to power an intuitive and user-friendly interface in our algorithmic trading. This interface enables us to interact with users, collect critical data, and tailor our trading strategy to their specific financial profile. When a user interacts with our system, they are asked for information such as their name, last name, date of birth, net worth, liquidity risk, level of investment experience, importance of returns, overall risk tolerance, fear index, and the amount they want to invest. We determine which portfolio category best suits the user based on their inputs, taking into account their unique preferences and risk tolerance.
 
+This dynamic interaction ensures that each user has a personalized approach to investing that takes individual goals and comfort levels into account, allowing us to provide tailored solutions and improve the overall user experience.
 # Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
