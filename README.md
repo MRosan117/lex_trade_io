@@ -63,8 +63,10 @@ This is an example of how you may give instructions on setting up your project l
 To get a local copy up and running follow these simple example steps.
 
 # Custom Indicator & Machine Learning Models
-We start by analyzing the SP500 dataset to identify relevant trends and patterns. From there, we build custom indicators that capture these insights and use them to inform our trading strategies.
 
+Our algorithmic trading uses machine learning to make predict and improve the performance of trading strategies. We use five different technical indicators, and each one is calculated on its own from real-time stock market data. After being carefully designed to pick up on different aspects of market behavior, these indicators are then put together to make a single, all-encompassing super indicator. 
+
+These models are trained on historical and live data and use the super indicator as a key feature to predict how well our trading strategy will work overall with each indicator. This process of prediction lets us change and improve our trading strategy in real time, which increases the chances of better trading results. Overall, making the algorithmic trading more reliable and data-driven by combining traditional indicators with cutting-edge machine learning techniques.
 <br />
 <div align="center">
     <img src="https://github.com/MRosan117/lex_trade_io/blob/main/Images/LexTradePulse.png" alt="Logo" width="1000" height="600"> 
