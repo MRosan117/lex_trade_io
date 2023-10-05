@@ -30,23 +30,6 @@
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/tyleradammartinez/SIG-Dashboard-Application" />
 </p>
 
-## Required Python Libaraies
-
-### CALCULATIONS
-`pip3 install pandas` <br>
-`pip3 install numpy` <br>
-`pip3 install matplotlib` <br>
-`pip3 install plotly` <br>
-`pip3 install alpaca-py` <br>
-`pip3 install alpaca-py` <br>
-`pip3 install python-dotenv` <br>
-`pip3 install yfinance` <br>
-
-
-### APIs
-* **[yfinance](https://pypi.org/project/yfinance/ "pypi yfinance Project Page")** | *Market data*
-* **[Alpaca](https://alpaca.markets/")** | *Trading Platform*
-
 <!-- GETTING STARTED -->
 ## Getting Started
 
@@ -75,6 +58,39 @@ These models are trained on historical and live data and use the super indicator
 We used Amazon Lex to power an intuitive and user-friendly interface in our algorithmic trading. This interface enables us to interact with users, collect critical data, and tailor our trading strategy to their specific financial profile. When a user interacts with our system, they are asked for information such as their name, last name, date of birth, net worth, liquidity risk, level of investment experience, importance of returns, overall risk tolerance, fear index, and the amount they want to invest. We determine which portfolio category best suits the user based on their inputs, taking into account their unique preferences and risk tolerance.
 
 This dynamic interaction ensures that each user has a personalized approach to investing that takes individual goals and comfort levels into account, allowing us to provide tailored solutions and improve the overall user experience.
+
+
+# Monte Carlo simulation
+
+We built 5 portfolios, corresponding to different benchmark risk/reward levels, and ran them through a Monte Carlo simulation.  
+
+Below are the five portfolios (bonds/stocks ratio):
+
+Conservative 100/0%  
+Moderately Conservative* 60/40% 
+Moderate 40/60% 
+Moderately Aggressive 20/80% 
+Aggressive 0/100%
+
+Note: (Bonds/Stocks ratio - "AGG" Bond ETF/"SPY"SP500 Index)
+
+## Required Python Libaraies
+
+### CALCULATIONS
+`pip3 install pandas` <br>
+`pip3 install numpy` <br>
+`pip3 install matplotlib` <br>
+`pip3 install plotly` <br>
+`pip3 install alpaca-py` <br>
+`pip3 install alpaca-py` <br>
+`pip3 install python-dotenv` <br>
+`pip3 install yfinance` <br>
+
+
+### APIs
+* **[yfinance](https://pypi.org/project/yfinance/ "pypi yfinance Project Page")** | *Market data*
+* **[Alpaca](https://alpaca.markets/")** | *Trading Platform*
+
 # Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
@@ -82,7 +98,6 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   pip install alpaca-py
   ```
-
 ### Installation
 1. Import dependencies from Finta, Pandas, and Yfinance, libraries
    ```
@@ -99,21 +114,6 @@ This is an example of how to list things you need to use the software and how to
    ```
    clean_spy_data["RSI"] = clean_spy_data.tar.rsi(length=14)
    ```
-   
-
-# Monte Carlo simulation
-
-We built 5 portfolios, corresponding to different benchmark risk/reward levels, and ran them through a Monte Carlo simulation.  
-
-Below are the five portfolios (bonds/stocks ratio):
-
-Conservative 100/0%  
-Moderately Conservative* 60/40% 
-Moderate 40/60% 
-Moderately Aggressive 20/80% 
-Aggressive 0/100%
-
-Note: (Bonds/Stocks ratio - "AGG" Bond ETF/"SPY"SP500 Index)
 
 # Prerequisites
 
